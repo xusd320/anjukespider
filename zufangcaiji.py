@@ -2,8 +2,6 @@
 import urllib2
 import re
 import sqlite3
-import time
-import types
 
    
 #抓取html源码
