@@ -57,7 +57,7 @@ for item in cursor.fetchall():
                 s=s+1
                 print '已采集' + str(s) + '条房源'
             isendpage = endpage(html)
-            if isendpage == None:
+            if isendpage != None:
                 break
        
 conn2.close()
